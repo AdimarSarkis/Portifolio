@@ -1,11 +1,9 @@
 .conteudo{
     border: solid 2px tomato;
-    height: 70vh;
-   
+    height: 500vh;
 }
 .sobre {
-
-    width: 1100px;
+    width: 85vw;
     height: 350px;
     position: relative;
     top: 50px;
@@ -21,8 +19,8 @@
     height: 2px;
     background: var(--corDegrade2);
     position: absolute;
-    bottom: 310px;
-    left: 510px;
+    bottom: 320px;
+    left: 500px;
 }
 .descricao{
     display: flex;
@@ -41,6 +39,17 @@
     font-weight: 200;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:700px){ /* para dispositivos moveis*/
     .descricao img{
         display: none;
@@ -48,13 +57,27 @@
     .conteudo{
         border: solid 2px tomato;
         height: 70vh;
+        width: 100vw;
         position: absolute;
         top: 430px;  
     }
+    .sobre h1{
+        margin-top: 40px;
+        margin-left: 100px;
+        width: 50vw;
+    }
+    .sobre h1::after{
+        position: absolute;
+        bottom: 310px;
+        left: 110px;
+
+    }
     .sobre p{
         margin-top: 40px;
-        margin-left: -20px;
-        font-size: 1rem;
+        margin-left: -10px;
+        font-size: 1.2rem;
+        width: 50vw;
     }
+    
     
 }

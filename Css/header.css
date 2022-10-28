@@ -1,10 +1,12 @@
 .img{
     height: 380px;
-    width: 110vw;
+    width: 100vw;
     }
     .img img{
         height: 100%;
         width: 99%;
+        opacity: 0.5;
+        object-fit: cover;
     }
     .apresentacao{
         width: 212px;
