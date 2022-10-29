@@ -1,0 +1,47 @@
+.habilidades{
+    border: 1px solid springgreen;
+    height: 600px;
+    position: relative;
+    top: 130px;
+}
+.habilidades h1{
+    margin-top: 20px;
+    margin-left: 600px;
+}
+.hard h2{
+    position: relative;
+    top: 50px;
+    left: 300px;
+}
+.soft h2{
+    position: relative;
+    top: 110px;
+    left: 300px;
+}
+[hardskills]{
+    border: 1px solid tomato;
+    width: 300px;
+    position: relative;
+    top: 4rem;
+    left: 350px;
+}
+[softskills]{
+    border: 1px solid tomato;
+    width: 300px;
+    position: relative;
+    top: 9rem;
+    left: 350px;
+}
+.imagem{
+    border: solid 1px seagreen;
+    width: 350px;
+    height: 420px;
+    position: relative;
+    bottom: 250px;
+    left: 50rem;
+}
+.imagem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

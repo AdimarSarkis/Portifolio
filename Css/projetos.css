@@ -1,10 +1,10 @@
 .projetos{
-    border: solid 1px springgreen;
     position: relative;
     top: 130px;
     width: 100vw;
     height: 750px;
-    background-color: rgba(33, 33, 33, 0.5);
+    background-color: rgba(33, 33, 33, 0.9);
+    border: solid rgba(33, 33, 33, 0.9) 0.01px;
 }
 .projetos button{
     width:  8rem;
@@ -38,7 +38,6 @@
     max-height: 290px;
     overflow: hidden;
     transition: max-height 0.4s ease-in-out;
-    border: solid 1px saddlebrown;
     position: relative;
     top: 30px;
     left: 78px;
