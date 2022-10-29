@@ -5,7 +5,7 @@
 }
 :root{
     --corDegrade: linear-gradient(42deg, rgba(2,0,36,1) 0%, rgba(252,50,129,1) 69%, rgba(250,31,108,1) 98%);
-    --corDegrade2: linear-gradient(59deg, rgba(7,31,94,1) 0%, rgba(44,86,125,1) 28%, rgba(108,205,206,1) 55%, rgba(164,224,220,1) 79%, rgb(37, 48, 43) 98%);
+    --corDegrade2: linear-gradient(59deg, rgba(7,31,94,1) 0%, rgba(44,86,125,1) 28%, rgba(108,205,206,1) 55%, rgba(123,191,187,1) 80%, rgba(115,163,141,1) 95%);
     --corDegrade3Roxo: linear-gradient( 83.2deg,  rgba(150,93,233,1) 10.8%, rgba(99,88,238,1) 94.3% );
     --corDegradeFundo: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgb(34, 40, 63) 70.2% );
 }
@@ -23,8 +23,9 @@ footer{
 body{
     display: grid;
     color: aliceblue;
-    background: var(--corDegradeFundo);
+    background: #22283F;
     min-height: 100vh;
+    max-width: 100vw;
     overflow-x: hidden;
     grid-template-columns: 1fr;
     grid-template-rows: 430px 1fr 50px;
