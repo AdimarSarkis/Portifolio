@@ -1,47 +1,104 @@
 .habilidades{
-    border: 1px solid springgreen;
-    height: 600px;
+    height: 1500px;
     position: relative;
     top: 130px;
 }
 .habilidades h1{
     margin-top: 20px;
     margin-left: 600px;
+    text-shadow: 0.3 .2rem .3rem rgba(0, 0, 0, 0.4);
+}
+.habilidades h1::after{
+    content: '';
+    width: 168px;
+    height: 2px;
+    background: var(--corDegrade2);
+    position: absolute;
+    top: 50px;
+    left: 44vw;
+}
+.des{
+    font-size: 1.4rem;
+    margin-top: 15px;
+    padding: 50px 70px;
 }
 .hard h2{
     position: relative;
-    top: 50px;
-    left: 300px;
+    top: 20px;
+    left: 45vw;
+    text-shadow: 0.3 .2rem .3rem rgba(0, 0, 0, 0.4);
+}
+.hard h2::after{
+    content: '';
+    width: 115px;
+    height: 2px;
+    background: var(--corDegrade);
+    position: absolute;
+    top: 25px;
+    left: 0px;
 }
 .soft h2{
     position: relative;
-    top: 110px;
-    left: 300px;
+    top: 50px;
+    left: 45vw;
+    text-shadow: 0.3 .2rem .3rem rgba(0, 0, 0, 0.4);
 }
-[hardskills]{
-    border: 1px solid tomato;
+.soft h2::after{
+    content: '';
+    width: 105px;
+    height: 2px;
+    background: var(--corDegrade);
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+.hardskills{
+    border: 0.01px solid rgb(42,42,42);
+    width: 1200px;
+    height: 800px;
+    position: relative;
+    top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    margin-left: 5vw;
+}
+.imgHab{
     width: 300px;
-    position: relative;
-    top: 4rem;
-    left: 350px;
+    height: 230px;
+    box-shadow: 10px 5px 20px 1px black;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-[softskills]{
-    border: 1px solid tomato;
-    width: 300px;
-    position: relative;
-    top: 9rem;
-    left: 350px;
+.imgHab h3{
+    margin-top: 30px;
 }
-.imagem{
-    border: solid 1px seagreen;
-    width: 350px;
-    height: 420px;
-    position: relative;
-    bottom: 250px;
-    left: 50rem;
-}
-.imagem img{
-    width: 100%;
-    height: 100%;
+.hardskills img{
+    margin-top: 40px;
+    width: 90px;
+    height: 90px;
     object-fit: cover;
+}
+.softskills{
+    width: 950px;
+    height: 280px;
+    position: relative;
+    top: 100px;
+    left: 15vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.softskills h3{
+    width: 280px;
+    height: 50px;
+    font-size: 1.4rem;
+    box-shadow: 1px 5px 10px 1px black;
+    border-radius: .5rem;
+    padding: 10px 10px;
 }
