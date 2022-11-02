@@ -1,7 +1,218 @@
 .contato{
     border: 1px solid seagreen;
     width: 100vw;
-    height: 571px;
+    height: 640px;
     margin-top: 130px;
+    padding: 50px 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(33, 33, 33, 0.9);
+}
+.contato .conteudoContado{
+    text-align: center;
+    max-width: 800px;
+}
+.contato .conteudoContado h2{
+    font-size: 3em;
+    font-weight: 500;
+    background: var(--corDegrade3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contato .conteudoContado p{
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+.container .contatoInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    min-height: 400px;
+}
+.container .contatoInfo .box{
+    position: relative;
+    padding: 20px 0px;
+    display: flex;
+    cursor: pointer;
+}
+.container .contatoInfo .box .icone{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75em;
+    transition: 0.5s;
+}
+.container .contatoInfo .box:hover .icone{
+    background: var(--corDegrade3);
+    color: #fff;
+}
+.container .contatoInfo .box .texto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 300;
+}
+.container .contatoInfo .box .texto h3{
+    font-weight: 500;
+    background: var(--corDegrade3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2px;
+    
+}
+.container .contatoInfo .box .texto p{
+    margin-left: 10px;
+}
+.container .contatoInfo  .txt{
+    color: #fff;
+    margin-top: 5px;
+    font-weight: 500;
+    border-left: 50px solid #e91e63;
+    padding-left: 10px;
+    line-height: 1em;
+}
+.redes{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+}
+.redes li{
+    list-style: none;
+}
+.redes li a{
+    color: #fff;
+    font-size: 2em;
+}
+.redes li a:hover{
+    color: #e03f75;
+}
+.contatoForm h2{
+    font-size: 2em;
+    font-weight: 500;
+}
+.container .contatoForm{
+    position: relative;
+    width: 40%;
+    box-shadow: 10px 5px 20px 1px black;
+    min-height: 100px;
+    padding: 60px;
+}
+.container .contatoForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.container .contatoForm .inputBox textarea{
+    height: 150px;
+}
+.container .contatoForm .inputBox input,
+.container .contatoForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1.1em;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    resize: none;
+    background: none;
+    color: aliceblue;
+}
+.inputBox i{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    overflow: hidden;
+}
+.inputBox i::before{
+    content: '';
+    position: absolute;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: var(--corDegrade3);
+    animation: animacao 2s linear infinite;
+    transition: 0.5s;
+}
+@keyframes animacao{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 345px;
+    }
+}
+.container .contatoForm .inputBox span{
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: rgb(155, 155, 155);
+    transition: 0.5s;
+}
+.container .contatoForm .inputBox input:focus ~ span,
+.container .contatoForm .inputBox textarea:focus ~ span,
+.container .contatoForm .inputBox input:valid ~ span,
+.container .contatoForm .inputBox textarea:valid ~ span{
+    background: var(--corDegrade3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 0.9em;
+    transform: translateY(-23px);
+    color: aliceblue;
+}
+.container .contatoForm .inputBox input:focus ~ i::before,
+.container .contatoForm .inputBox textarea:focus ~ i::before,
+.container .contatoForm .inputBox input:valid ~ i::before,
+.container .contatoForm .inputBox textarea:valid ~ i::before{
+    left: 0;
+}
+.container .contatoForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: var(--corDegrade3);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+@media(max-width: 991px){
+    .contato{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contatoInfo,
+    .container .contatoForm{
+        width: 100%;
+    }
+    .container .contatoForm{
+        padding: 50px 30px;
+    }
 }

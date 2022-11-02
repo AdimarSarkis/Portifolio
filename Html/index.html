@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/index.css">
-        <link rel="stylesheet" href="../css/header.css">
-        <link rel="stylesheet" href="../css/conteudo.css">
-        <link rel="stylesheet" href="../css/projetos.css">
-        <link rel="stylesheet" href="../css/habilidades.css">
-        <link rel="stylesheet" href="../css/contato.css">
+        <link rel="stylesheet" href="../Css/index.css">
+        <link rel="stylesheet" href="../Css/header.css">
+        <link rel="stylesheet" href="../Css/conteudo.css">
+        <link rel="stylesheet" href="../Css/projetos.css">
+        <link rel="stylesheet" href="../Css/habilidades.css">
+        <link rel="stylesheet" href="../Css/contato.css">
         <title>Pagina Pessoal</title>
     </head>
     <body>
@@ -37,8 +37,8 @@
                 </div>
             </header>
             <main>
-                <section class="conteudo">
-                    <div class="sobre">
+                <div class="conteudo">
+                    <section class="sobre">
                         <h1>SOBRE</h1>
                         <div class="descricao">
                             <img src="../imagens/minhaFoto.png" alt="">
@@ -50,9 +50,9 @@
                                 tomando gosto para o desenvolvimento web.
                             </p>
                         </div>
-                    </div>
+                    </section>
                     
-                    <div class="projetos">
+                    <section class="projetos">
                         <h1>PROJETOS</h1>
                         <div class="info">
                             <div class="cards">
@@ -120,9 +120,9 @@
                         
                            
                         <button verMais class="toggle" data-state="more">VER MAIS</button>
-                    </div>
+                    </section>
                     
-                    <div class="habilidades">
+                    <section class="habilidades">
                         <h1>HABILIDADES</h1>
                         <p class="des">Apesar de ainda ter muito a aprender, 
                             minha atuação principal é a front-end,
@@ -194,19 +194,86 @@
                                 <h3>Colaboração</h3>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
-                    <div class="contato">
-                        <p>teste</p>
-                    </div>
-                </section>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-whatsapp"></i>
-                <i class="fa-brands fa-linkedin"></i>
+                    <section class="contato">
+                        <div class="conteudoContado">
+                            <h2>Contato</h2>
+                            
+                        </div>
+                        <div class="container">
+                            <div class="contatoInfo">
+                                <div class="box">
+                                    <div class="icone">
+                                        <ion-icon name="location-outline"></ion-icon>
+                                    </div>
+                                    <div class="texto">
+                                        <h3>Endereço</h3>
+                                        <p>545 Rua Saturnino Pires de Godoy, <br> Cornélio Procópio, Paraná, <br>86300-000</p>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="icone">
+                                        <ion-icon name="call-outline"></ion-icon>
+                                    </div>
+                                    <div class="texto">
+                                        <h3>Telefone</h3>
+                                        <p>(68)99989-9039</p>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="icone">
+                                        <ion-icon name="mail-outline"></ion-icon>
+                                    </div>
+                                    <div class="texto">
+                                        <h3>Email</h3>
+                                        <p>sarkis170@gmail.com</p>
+                                    </div>
+                                </div>
+                            
+                                <h2 class="txt">Conecte-se comigo pelo</h2>
+                                <ul class="redes">
+                                    <li><a href="https://github.com/AdimarSarkis" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+                                    <li><a href="https://www.linkedin.com/in/adimar-sarkis-21b3a6239/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                                </ul>
+                            </div>
+                            <div class="contatoForm">
+                                <h2>Mande a sua mensagem</h2>
+                                <form action="">
+                                    <div class="inputBox">
+                                        <input type="text" name="" required="required">
+                                        <span>Nome completo</span>
+                                        <i></i>
+                                    </div>
+                                    <div class="inputBox">
+                                        <input type="text" name="" required="required">
+                                        <span>Email</span>
+                                        <i></i>
+                                    </div>
+                                    <div class="inputBox">
+                                        <textarea required="required"></textarea>
+                                        <span>Sua mensagem...</span>
+                                        <i></i>
+                                    </div>
+                                    <div class="inputBox">
+                                        <input type="submit" value="Enviar">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                
+                
+                
             </main>
             
             <footer>Rodape</footer>
             
             <script src="../Js/projetos.js" defer></script>
+            
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            
     </body>
 </html>

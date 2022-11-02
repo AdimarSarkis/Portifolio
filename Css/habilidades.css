@@ -14,7 +14,7 @@
     height: 2px;
     background: var(--corDegrade2);
     position: absolute;
-    top: 50px;
+    top: 25px;
     left: 44vw;
 }
 .des{
@@ -68,11 +68,23 @@
 .imgHab{
     width: 300px;
     height: 230px;
+    background: #2A2A2A;
     box-shadow: 10px 5px 20px 1px black;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.imgHab:hover:before{
+    content: '';
+    width: 300px;
+    height: 230px;
+    background: var(--corDegrade3);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 5px;
+    z-index: -1;
+    filter: blur(15px);
 }
 .imgHab h3{
     margin-top: 30px;
