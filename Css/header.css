@@ -4,14 +4,14 @@
     }
     .img img{
         height: 100%;
-        width: 99%;
+        width: 100%;
         opacity: 0.5;
         object-fit: cover;
     }
     .apresentacao{
         width: 212px;
         height: 180px;
-        background: var(--corDegradeFundo);
+        background: #2a2a2a;
         top: 100px;
         left: 568px;
         position: absolute;
@@ -72,4 +72,8 @@
     .menu li:hover::after{
         width: 100%;
     }
-    
+    @media (max-width: 768px) { /* para dispositivos tablets*/
+        .apresentacao{
+            left:280px;
+        }
+    }

@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="../Css/projetos.css">
         <link rel="stylesheet" href="../Css/habilidades.css">
         <link rel="stylesheet" href="../Css/contato.css">
+        <link rel="stylesheet" href="../Css/rodape.css">
         <title>Pagina Pessoal</title>
     </head>
     <body>
@@ -27,8 +28,8 @@
                         <nav>
                             <ul>
                                 <li>LOGO</li>
-                                <li><a href="#">HOME</a></li>
-                                <li><a href="#">PROJETOS</a></li>
+                                <li><a href="#">SOBRE</a></li>
+                                <li><a href="#projetos">PROJETOS</a></li>
                                 <li><a href="#">CONHECIMENTOS</a></li>
                                 <li><a href="#">CONTATO</a></li>
                             </ul>
@@ -116,10 +117,9 @@
                                 </div>
                             </div>
                             <span class="overflow" data-state="visible" aria-hidden="true"></span>
+                            <button verMais class="toggle" data-state="more">VER MAIS</button>
                         </div>
                         
-                           
-                        <button verMais class="toggle" data-state="more">VER MAIS</button>
                     </section>
                     
                     <section class="habilidades">
@@ -147,38 +147,39 @@
                                     <h3>Sass</h3>
                                     <p>Básico</p>
                                 </div>
-                                <div class="imgHab">
+                                <div class="imgHab" esconde>
                                     <img src="../imagens/angular.svg" alt="">
                                     <h3>Angular</h3>
                                     <p>Básico</p>
                                 </div>
-                                <div class="imgHab">
+                                <div class="imgHab" esconde>
                                     <img src="../imagens/getbootstrap.svg" alt="">
                                     <h3>Bootstrap</h3>
                                     <p>Básico</p>
                                 </div>
-                                <div class="imgHab">
+                                <div class="imgHab" esconde>
                                     <img src="../imagens/html5.svg" alt="">
                                     <h3>HTML 5</h3>
                                     <p>Intermediário</p>
                                 </div>
-                                <div class="imgHab">
+                                <div class="imgHab" esconde>
                                     <img src="../imagens/css3.svg" alt="">
                                     <h3>CSS 3</h3>
                                     <p>Intermediário</p>
                                 </div>
-                                <div class="imgHab">
+                                <div class="imgHab" esconde>
                                     <img src="../imagens/js.svg" alt="">
                                     <h3>JavaScript</h3>
                                     <p>Básico</p>
                                 </div>
-                                <div class="imgHab">
+                                <div class="imgHab" esconde>
                                     <img src="../imagens/nodejs.svg" alt="">
                                     <h3>NodeJs</h3>
                                     <p>Básico</p>
                                 </div>
-                                       
+                                
                             </div>
+                            
                         </div>
                         <div class="soft">
                             <h2>Soft Skills</h2>
@@ -198,7 +199,7 @@
 
                     <section class="contato">
                         <div class="conteudoContado">
-                            <h2>Contato</h2>
+                            <h1>Contato</h1>
                             
                         </div>
                         <div class="container">
@@ -268,7 +269,11 @@
                 
             </main>
             
-            <footer>Rodape</footer>
+            <footer>
+                <div class="rodape">
+                    <h3>Site desenvolvido por <strong>Adimar Sarkis da Cruz</strong></h3>
+                </div>
+            </footer>
             
             <script src="../Js/projetos.js" defer></script>
             

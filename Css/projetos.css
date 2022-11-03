@@ -5,6 +5,7 @@
     height: 750px;
     background-color: rgba(33, 33, 33, 0.9);
     border: solid rgba(33, 33, 33, 0.9) 0.01px;
+    text-align: center;
 }
 .projetos button{
     width:  8rem;
@@ -18,23 +19,20 @@
     cursor: pointer;
 }
 .projetos h1{
-    margin-left: 620px;
     margin-top: 20px;
     font-size: 1.6rem;
     text-shadow: 0.3 .2rem .3rem rgba(0, 0, 0, 0.4);
-}
-.projetos h1::after{
-    content: '';
-    width: 150px;
-    height: 2px;
+    font-size: 3em;
+    font-weight: 500;
     background: var(--corDegrade2);
-    position: absolute;
-    bottom: 545px;
-    left: 600px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 .info{
     display: flex;
-    width: 1200px;
+    width: 90%;
+    border: 1px solid springgreen;
     height: 600px;
     max-height: 290px;
     overflow: hidden;
@@ -117,4 +115,36 @@
     bottom: 2rem;
     opacity: 1;
     visibility: visible;
+}
+@media (max-width:769px){ /* para dispositivos tablets*/
+    .projetos{
+        border: 1px solid springgreen;
+        width: 100%;
+        position: relative;
+        top: 51px;
+        height: 970px;
+    }
+    .projetos h1{
+        font-size: 3em;
+        font-weight: 500;
+        background: var(--corDegrade2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: absolute;
+        right: 260px; 
+    }
+    .info{
+        width: 100%;
+        border: 1px solid salmon;
+        position: absolute;
+        left: 0 ;
+        top: 100px;
+        height: 820px;
+    }
+    [verMais]{
+        position: relative;
+        top: 400px;
+        left: 40%;
+    }
+
 }
