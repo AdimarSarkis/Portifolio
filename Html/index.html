@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" author="Adimar">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../Css/index.css">
         <link rel="stylesheet" href="../Css/header.css">
@@ -17,9 +17,7 @@
         
             <header>
                 <div>
-                    <div class="img">
-                        <img src="../imagens/1151679.jpg" alt="" >
-                    </div>
+                    <div class="img"></div>
                     <div class="apresentacao">
                         <span>ZurcDev</span>
                         <p>Adimar Sarkis da Cruz</p>
@@ -53,97 +51,29 @@
                         </div>
                     </section>
                     
-                    <section class="projetos">
-                        <h1>PROJETOS</h1>
-                        <div class="info">
-                            <div class="cards">
-                                <div class="cardImg">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="cardInfo">
-                                    <h2>Projeto-Galeria</h2>
-                                    <p>Projeto feito com webpack bootstrap e sass</p>
-                                    <a href="#"><button>Saiba mais</button></a>
-                                </div>
-                            </div>
-                            <div class="cards">
-                                <div class="cardImg">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="cardInfo">
-                                    <h2>Projeto Cadastro de Usuários</h2>
-                                    <p>Projeto feito com backend JSON Server</p>
-                                    <a href="#"><button>Saiba mais</button></a>
-                                </div>
-                            </div>
-                            <div class="cards">
-                                <div class="cardImg">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="cardInfo">
-                                    <h2>Projeto Calculadora</h2>
-                                    <p>Projeto feito com webpack bootstrap e sass</p>
-                                    <a href="#"><button>Saiba mais</button></a>
-                                </div>
-                            </div>
-                            <div class="cards esconder" esconde>
-                                <div class="cardImg">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="cardInfo">
-                                    <h2>Projeto Súmario de vendas</h2>
-                                    <p>Projeto feito com VueJs</p>
-                                    <a href="#"><button>Saiba mais</button></a>
-                                </div>
-                            </div>
-                            <div class="cards esconder" esconde>
-                                <div class="cardImg">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="cardInfo">
-                                    <h2>Em breve</h2>
-                                    <p>Projeto sendo feito</p>
-                                    <a href="#"><button>Saiba mais</button></a>
-                                </div>
-                            </div>
-                            <div class="cards esconder" esconde>
-                                <div class="cardImg">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="cardInfo">
-                                    <h2>Em breve</h2>
-                                    <p>Projeto sendo feito</p>
-                                    <a href="#"><button>Saiba mais</button></a>
-                                </div>
-                            </div>
-                            <span class="overflow" data-state="visible" aria-hidden="true"></span>
-                            <button verMais class="toggle" data-state="more">VER MAIS</button>
-                        </div>
-                        
-                    </section>
                     
                     <section class="habilidades">
                         <h1>HABILIDADES</h1>
                         <p class="des">Apesar de ainda ter muito a aprender, 
                             minha atuação principal é a front-end,
-                             e as tecnologias
+                            e as tecnologias
                             principais que mais trabalhei/estou aprendendo a trabalhar 
                             hoje são as seguintes:</p>
-                        <div class="hard">
-                            <h2>Hard Skills</h2>
-                            <div class="hardskills">
-                                <div class="imgHab">
-                                    <img src="../imagens/vue.svg" alt="">
-                                    <h3>VueJs</h3>
-                                    <p>Básico</p>
-                                </div>
-                                <div class="imgHab">
-                                    <img src="../imagens/reactjs.svg" alt="">
-                                    <h3>Reactjs</h3>
-                                    <p>Básico/Intermediário</p>
-                                </div>
-                                <div class="imgHab">
-                                    <img src="../imagens/sass.svg" alt="">
+                            <div class="hard">
+                                <h2>Hard Skills</h2>
+                                <div class="hardskills">
+                                    <div class="imgHab">
+                                        <img src="../imagens/vue.svg" alt="">
+                                        <h3>VueJs</h3>
+                                        <p>Básico</p>
+                                    </div>
+                                    <div class="imgHab">
+                                        <img src="../imagens/reactjs.svg" alt="">
+                                        <h3>Reactjs</h3>
+                                        <p>Básico/Intermediário</p>
+                                    </div>
+                                    <div class="imgHab">
+                                        <img src="../imagens/sass.svg" alt="">
                                     <h3>Sass</h3>
                                     <p>Básico</p>
                                 </div>
@@ -196,11 +126,115 @@
                             </div>
                         </div>
                     </section>
+                    
+                    <section class="projetos">
+                        <h1>PROJETOS</h1>
+                        <div class="slider">
+                            <div class="slides">
+                                <input type="radio" name="radio-btn" id="radio1">
+                                <input type="radio" name="radio-btn" id="radio2">
+                                <input type="radio" name="radio-btn" id="radio3">
+                                <input type="radio" name="radio-btn" id="radio4">
+                                <input type="radio" name="radio-btn" id="radio5">
+                                <input type="radio" name="radio-btn" id="radio6">
+
+                                <div class="slide primeiro">
+                                    <img src="../imagens/1151679.jpg" alt="imagem 1">
+                                    <div class="cardInfo">
+                                        <h2>Projeto-Galeria</h2>
+                                        <p>Projeto desenvolvido durante o estudo de bootstrap, visa
+                                            
+                                        </p>
+                                        <ul class="tecnoUsadas">
+                                            <li>Webpack</li>
+                                            <li>Bootstrap</li>
+                                            <li>Sass</li>
+                                        </ul>
+                                        <a href="#"><button>Saiba mais</button></a>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <img src="../imagens/1151387.jpg" alt="imagem 2">
+                                    <div class="cardInfo">
+                                        <h2>Projeto Cadastro de Usuários</h2>
+                                        <p>Projeto feito com backend JSON Server</p>
+                                        <ul class="tecnoUsadas">
+                                            <li>JSON server</li>
+                                            
+                                        </ul>
+                                        <a href="#"><button>Saiba mais</button></a>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <img src="../imagens/2159514.jpg" alt="imagem 3">
+                                    <div class="cardInfo">
+                                        <h2>Projeto Calculadora</h2>
+                                        <p>Projeto feito com webpack bootstrap e sass</p>
+                                        <ul class="tecnoUsadas">
+                                            <li>Webpack</li>
+                                            <li>Bootstrap</li>
+                                            <li>Sass</li>
+                                        </ul>
+                                        <a href="#"><button>Saiba mais</button></a>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <img src="../imagens/632051.png" alt="imagem 4">
+                                    <div class="cardInfo">
+                                        <h2>Projeto Súmario de vendas</h2>
+                                        <p>Projeto feito com VueJs</p>
+                                        <ul class="tecnoUsadas">
+                                            <li>VueJs</li>
+                                            
+                                        </ul>
+                                        <a href="#"><button>Saiba mais</button></a>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <img src="../imagens/Imagem do WhatsApp de 2022-10-12 à(s) 16.37.03.jpg" alt="imagem 5">
+                                    <div class="cardInfo">
+                                        <h2>Em breve</h2>
+                                        <p>Projeto sendo feito</p>
+                                        <a href="#"><button>Saiba mais</button></a>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <img src="../imagens/Captura de tela_20221026_193105.png" alt="imagem 6">
+                                    <div class="cardInfo">
+                                        <h2>Em breve</h2>
+                                        <p>Projeto sendo feito</p>
+                                        <a href="#"><button>Saiba mais</button></a>
+                                    </div>
+                                </div>
+
+                                <div class="navigation-auto">
+                                    <div class="auto-btn1"></div>
+                                    <div class="auto-btn2"></div>
+                                    <div class="auto-btn3"></div>
+                                    <div class="auto-btn4"></div>
+                                    <div class="auto-btn5"></div>
+                                    <div class="auto-btn6"></div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="manual-navigation">
+                                <label for="radio1" class="manual-btn"></label>
+                                <label for="radio2" class="manual-btn"></label>
+                                <label for="radio3" class="manual-btn"></label>
+                                <label for="radio4" class="manual-btn"></label>
+                                <label for="radio5" class="manual-btn"></label>
+                                <label for="radio6" class="manual-btn"></label>
+                            </div>
+                        
+                        </div>
+
+                        
+                    </section>
 
                     <section class="contato">
                         <div class="conteudoContado">
                             <h1>Contato</h1>
-                            
                         </div>
                         <div class="container">
                             <div class="contatoInfo">
@@ -271,7 +305,7 @@
             
             <footer>
                 <div class="rodape">
-                    <h3>Site desenvolvido por <strong>Adimar Sarkis da Cruz</strong></h3>
+                    <h3>Site desenvolvido por <strong class="rodapeNome">Adimar Sarkis da Cruz</strong></h3>
                 </div>
             </footer>
             
@@ -279,6 +313,9 @@
             
             <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
             <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-            
+            <script
+                src="https://code.jquery.com/jquery-3.6.1.min.js"
+                integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+                crossorigin="anonymous"></script>
     </body>
 </html>

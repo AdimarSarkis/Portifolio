@@ -2,6 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+}
+.rodapeNome{
+    background: var(--corDegrade2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 @media (max-width:769px){ /* para dispositivos tablets*/
     .rodape{

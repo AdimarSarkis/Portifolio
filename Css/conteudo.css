@@ -2,12 +2,12 @@
     height: 510vh;
 }
 .sobre {
-    width: 85vw;
+    width: 100vw;
     height: 350px;
     position: relative;
     top: 50px;
-    left: 125px;
     text-align: center;
+    padding: 0 60px;
 }
 .sobre h1{
     margin-top: 10px;
@@ -16,6 +16,7 @@
     background: var(--corDegrade2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
 }
 
 .descricao{
@@ -30,9 +31,11 @@
 
 .sobre p{
     margin-top: 90px;
+    width: 580px;
     margin-left: 150px;
     font-size: 1.4rem;
     font-weight: 200;
+    text-align: justify;
 }
 
 
@@ -55,18 +58,24 @@
         position: absolute;
         right: 330px; 
     }
-    .sobre h1::after{
-        position: absolute;
-        bottom: 5px;
-        left: 10px;
-
-    }
     .sobre p{
         margin-top: 100px;
         margin-left: -10px;
         font-size: 1.4rem;
         width: 70vw;
     }
-    
-    
+}
+@media (max-width: 425px) { /* para dispositivos mobile Large*/
+    .sobre h1{
+        position: relative;
+        right: 26%;
+    }
+    .sobre p{
+        position: relative;
+        bottom: 60px;
+        right: 85px;
+        font-size: 1.4rem;
+        width: 88vw;
+        
+    }
 }

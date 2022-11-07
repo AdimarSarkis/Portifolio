@@ -59,7 +59,7 @@
     transition: 0.5s;
 }
 .container .contatoInfo .box:hover .icone{
-    background: var(--corDegrade2);
+    background: var(--corDegrade);
 }
 .container .contatoInfo .box .texto{
     display: flex;
@@ -71,7 +71,7 @@
 }
 .container .contatoInfo .box .texto h3{
     font-weight: 500;
-    background: var(--corDegrade2);
+    background: var(--corDegrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 2px;
@@ -191,7 +191,7 @@
 }
 .container .contatoForm .inputBox input[type="submit"]{
     width: 100px;
-    background: var(--corDegrade2);
+    background: var(--corDegrade);
     color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
