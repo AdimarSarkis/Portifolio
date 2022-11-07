@@ -38,6 +38,18 @@
     text-align: justify;
 }
 
+@media (max-width: 1440px){ /* Computador com tela maior*/
+    .descricao{
+        padding-left: 100px;
+    }
+    .sobre p{
+        font-size: 1.6rem; 
+    }
+    .conteudo{
+        height: 410vh;
+    }
+}
+
 
 @media (max-width:768px){ /* para dispositivos tablets*/
     .descricao img{
