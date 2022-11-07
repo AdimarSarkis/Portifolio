@@ -150,15 +150,7 @@
     }
 }
 
-@media (max-width: 769px) {
-    .overflow{
-        display: none;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100px;
-        height: 30px;
-    }
+@media (max-width: 768px) {
     .soft h2{
         position: relative;
         top: 450px;
@@ -171,8 +163,25 @@
         position: absolute;
         left: 330px;
     }
+    .imgHab{
+        margin: 15px;
+        width: 250px;
+    }
     .softskills{
         position: relative;
         top: 500px;
+    }
+    .habilidades{
+        top: 30px;
+    }
+    .des{
+        text-align: justify;
+    }
+    .soft{
+        position: relative;
+        top: 130px;
+    }
+    .habilidades{
+        height: 2100px;
     }
 }

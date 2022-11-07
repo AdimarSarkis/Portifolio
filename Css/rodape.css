@@ -19,7 +19,6 @@
     position: absolute;
     bottom: -3345px;
     margin-bottom: 15px;
-    
     left: 257px;
   }
 
@@ -28,9 +27,9 @@
 @media (max-width:769px){ /* para dispositivos tablets*/
     .rodape{
         position: absolute;
-        bottom: -4585px;
-        width: 100%;
-        padding: 20px;
+        bottom: -4155px;
+        padding: 5px;
+        left: 129px;
     }
 
 

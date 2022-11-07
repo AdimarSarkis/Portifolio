@@ -181,16 +181,12 @@
     }
 }
 
-
-
-
 @media (max-width:768px){ /* para dispositivos tablets*/
     .projetos{
-        border: 1px solid springgreen;
         width: 100%;
         position: relative;
-        top: 51px;
-        height: 970px;
+        top: 4px;
+        height: 570px;
     }
     .projetos h1{
         font-size: 3em;
@@ -201,14 +197,12 @@
         position: absolute;
         right: 260px; 
     }
-    .info{
-        width: 100%;
-        border: 1px solid salmon;
-        position: absolute;
-        left: 0 ;
-        top: 100px;
-        height: 820px;
+    .slider{
+        position: relative;
+        top: 60px;
+        height: 450px;
     }
+   
 
 }
 @media (max-width: 425px) { /* para dispositivos mobile Large*/

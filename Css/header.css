@@ -105,6 +105,12 @@ a{
     .apresentacao{
         left:280px;
     }
+    .apresentacao p{
+        padding-right: 15px;
+    }
+    .menu li:nth-child(1){
+        margin-right: 200px;
+    }
 }
 @media (max-width: 425px) { /* para dispositivos mobile Large*/
     .apresentacao{

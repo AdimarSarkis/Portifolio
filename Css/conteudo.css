@@ -68,7 +68,7 @@
         display: none;
     }
     .conteudo{
-        height: 70vh;
+        height: 50vh;
         width: 100vw;
         position: absolute;
         top: 430px;  
@@ -84,8 +84,8 @@
     }
     .sobre p{
         margin-top: 100px;
-        margin-left: -10px;
-        font-size: 1.4rem;
+        margin-left: 40px;
+        font-size: 1.5rem;
         width: 70vw;
     }
 }
