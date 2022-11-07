@@ -14,6 +14,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0.3 .2rem .3rem rgba(0, 0, 0, 0.4);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .des{
@@ -127,6 +128,25 @@
     }
     .softskills{
         gap: 15px;
+    }
+}
+@media (max-width: 1024px) { /* laptop menor*/
+    .hard h2::after{
+        left: 450px;
+    }
+    .soft h2::after{
+        left: 460px;
+    }
+    .imgHab{
+        margin: 5px;
+        width: 250px;
+    }
+    .softskills h3{
+        width: 250px;
+    }
+    .habilidades{
+        margin-bottom: 10px;
+        height: 1530px;
     }
 }
 

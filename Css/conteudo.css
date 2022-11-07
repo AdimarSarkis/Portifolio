@@ -16,7 +16,7 @@
     background: var(--corDegrade2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .descricao{
@@ -50,6 +50,18 @@
     }
 }
 
+@media (max-width: 1024px) { /* laptop menor*/
+    .descricao{
+        width: 105%;
+        margin-left: 0;
+        padding: 0;
+    }
+    .descricao img{
+        margin: 0 auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
 
 @media (max-width:768px){ /* para dispositivos tablets*/
     .descricao img{
@@ -77,6 +89,8 @@
         width: 70vw;
     }
 }
+
+
 @media (max-width: 425px) { /* para dispositivos mobile Large*/
     .sobre h1{
         position: relative;

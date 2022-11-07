@@ -26,6 +26,7 @@
     background: var(--corDegrade2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .slider{
@@ -174,7 +175,11 @@
 
 }
 
-
+@media (max-width: 1024px) { /* laptop menor*/
+    .tecnoUsadas{
+        gap: 15px;
+    }
+}
 
 
 

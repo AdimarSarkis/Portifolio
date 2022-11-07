@@ -45,7 +45,6 @@ nav ul{
 }
 .menu{
     background-color: rgba(33,33,33,.5);
-    position: -webkit-sticky;
     top: 30px;
 }
 a{
@@ -85,6 +84,23 @@ a{
         padding-left: 15px;
     }
 }
+@media (max-width: 1024px) { /* laptop menor*/
+    .apresentacao{
+        left: 406px;
+    }
+    .menu li{
+        margin: 0 auto;
+        
+    }
+    .menu li:nth-child(1){
+        margin-right: 400px;
+    }
+    nav ul{
+        padding: 15px;
+    }
+    
+}
+
 @media (max-width: 768px) { /* para dispositivos tablets*/
     .apresentacao{
         left:280px;
