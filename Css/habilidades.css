@@ -107,7 +107,7 @@
     padding: 10px 10px;
 }
 
-@media (max-width: 1440px){ /* Computador com tela maior*/
+@media ((max-width: 1440px) and (min-width: 1354px)){ /* Computador com tela maior*/
     .des{
         font-size: 1.6rem;
     }

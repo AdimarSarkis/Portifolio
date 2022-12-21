@@ -2,13 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 680px;
 }
 .rodapeNome{
     background: var(--corDegrade2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 @media (max-width: 1440px){ /* Computador com tela maior*/
   .rodape{
     font-size: 1.4em;
@@ -31,7 +32,4 @@
         padding: 5px;
         left: 129px;
     }
-
-
-
 }

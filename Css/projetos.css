@@ -125,7 +125,7 @@
     background-color: #e91e63;
 }
 
-.slide:hover img{
+.slide img{
     opacity: .3;
 }
 .slide .cardInfo{

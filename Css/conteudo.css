@@ -30,12 +30,12 @@
 }
 
 .sobre p{
-    margin-top: 90px;
-    width: 580px;
-    margin-left: 150px;
-    font-size: 1.4rem;
-    font-weight: 200;
-    text-align: justify;
+        margin-top: 90px;
+        width: 580px;
+        margin-left: 150px;
+        font-size: 1.4rem;
+        font-weight: 200;
+        text-align: justify;
 }
 
 @media (max-width: 1440px){ /* Computador com tela maior*/
